@@ -43,8 +43,6 @@
             , <&key_physical_attrs 100 100  522  371    2000   525   470>
             , <&key_physical_attrs 100 100  828  371 (-2000)   925   470>
             , <&key_physical_attrs 100 100  930  350 (-1000)  1030   450>
-            , <&key_physical_attrs 100 100 1035  350       0     0     0>
-            , <&key_physical_attrs 100 100 1150  300       0     0     0>
             , <&key_physical_attrs 100 100 1250  325       0     0     0>
             , <&key_physical_attrs 100 100 1350  360       0     0     0>
             ;
@@ -222,7 +220,7 @@
     //     };
     // };
 
-    // S size only position map (44 keys)
+    // S size only position map (42 keys)
     position_map_s_only {
         compatible = "zmk,physical-layout-position-map";
         complete;
@@ -232,7 +230,7 @@
                 0  1  2  3  4        5  6  7  8  9
                 10 11 12 13 14       15 16 17 18 19
                 20 21 22 23 24 25 26 27 28 29 30 31
-                32 33 34 35 36 37 38 39 40 41 42 43
+                32 33 34 35 36 37 38 39 40 41
             >;
         };
     };
