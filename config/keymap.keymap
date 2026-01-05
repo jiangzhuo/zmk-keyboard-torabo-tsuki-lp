@@ -28,10 +28,10 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL
-&kp TAB    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI   &kp APOS
-&kp CAPS   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
-&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LBKT   &kp RBKT
+&kp GRAVE  &kp PRINTSCREEN      &kp SCROLLLOCK     &kp PAUSE_BREAK  &trans               &trans  &trans  &trans  &kp MINUS  &kp EQUAL
+&kp TAB    &kp INSERT           &kp HOME           &kp PAGE_UP      &trans               &trans  &trans  &trans  &kp SEMI   &kp APOS
+&kp CAPS   &kp DEL              &kp END            &kp PAGE_DOWN    &trans               &trans  &trans  &trans  &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
+&trans     &kp INTERNATIONAL_5  &kp LANG_HIRAGANA  &kp LANGUAGE_3   &kp INTERNATIONAL_4  &trans  &trans  &trans  &kp LBKT   &kp RBKT
             >;
         };
 
