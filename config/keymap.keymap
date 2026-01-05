@@ -22,16 +22,16 @@
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7     &kp F8    &kp F9     &kp F10
 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &mkp MB4  &mkp LCLK  &kp UP    &mkp RCLK  &kp F11
 &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans    &trans     &mkp MB5  &kp LEFT   &kp DOWN  &kp RIGHT  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &mkp MCLK  &mo 4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &mo 1    &mkp MCLK  &mo 4
             >;
         };
 
         temp_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 1   &trans  &mo 4
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7     &kp F8    &kp F9     &kp F10
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &mkp MB4  &mkp LCLK  &kp UP    &mkp RCLK  &kp F11
+&kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans    &trans     &mkp MB5  &kp LEFT   &kp DOWN  &kp RIGHT  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &mo 1     &mkp MCLK  &mo 4
             >;
         };
 
