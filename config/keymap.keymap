@@ -37,10 +37,10 @@
 
         layer_1 {
             bindings = <
-&kp N1     &kp N2           &kp N3          &kp N4           &kp N5  &kp N6  &kp N7      &kp N8     &kp N9     &kp N0
-&kp GRAVE  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans  &kp MINUS   &kp EQUAL  &kp SEMI   &kp APOS
-&kp TAB    &kp INSERT       &kp HOME        &kp PAGE_UP      &trans  &trans  &trans      &trans     &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
-&mt LSHFT CAPS  &kp DEL     &kp END         &kp PAGE_DOWN    &trans  &trans  &trans      &trans     &kp LBKT   &kp RBKT
+&kp N1          &kp N2               &kp N3          &kp N4           &kp N5  &kp N6  &kp N7     &kp N8     &kp N9     &kp N0
+&kp GRAVE       &kp PRINTSCREEN      &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SEMI   &kp APOS
+&kp TAB         &kp INSERT           &kp HOME        &kp PAGE_UP      &trans  &trans  &trans     &trans     &kp COMMA  &kp DOT   &kp FSLH  &kp BSLH
+&mt LSHFT CAPS  &mt LEFT_ALT DELETE  &kp END         &kp PAGE_DOWN    &trans  &trans  &trans     &trans     &kp LBKT   &kp RBKT
             >;
         };
 
