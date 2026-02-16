@@ -8,6 +8,8 @@
 
 ![keymap](keymap.svg)
 
+> SVGは [keymap-drawer](https://github.com/caksoylar/keymap-drawer) で生成: `keymap parse -z config/keymap.keymap -c 10 -o keymap.yaml && keymap draw keymap.yaml -o keymap.svg`
+
 ---
 
 ## フォーク元からの変更点
